@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 flag=0;
                 theway = 0;
-                String phonenumber = "5556";
+                String phonenumber = "0903052016";
                 textMessage = "HUNGRY AGAIN, more tacos \n";
                 getSize();
                 getTorilla();

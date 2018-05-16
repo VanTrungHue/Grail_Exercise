@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Maps</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="list_image">
+        <item>cleveland</item>
+        <item>browns</item>
+        <item>university</item>
+        <item>playhouse</item>
+        <item>artMuseum</item>
+    </string-array>
+</resources>

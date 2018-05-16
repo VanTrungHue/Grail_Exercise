@@ -1,0 +1,4 @@
+#Thu Feb 15 18:47:19 ICT 2018
+base.0=D\:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b - Permisson\\Lab3b_DangerousApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProject\\Coursera - Exercises\\Lab3b_DangerousApp\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

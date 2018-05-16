@@ -1,6 +1,9 @@
 package com.example.hue.rss_vnexpress;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,20 +35,35 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        lv = (ListView) findViewById(R.id.listViewTieuDe);
-        arrayTitle = new ArrayList<>();
-        arrayLink = new ArrayList<>();
-        adapter= new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayTitle);
-        lv.setAdapter(adapter);
-        new Rss_NewFeed().execute("https://vnexpress.net/rss/so-hoa.rss");
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(MainActivity.this,detailNewfeed.class);
-                intent.putExtra("linkTinTuc",arrayLink.get(position));
-                startActivity(intent);
-            }
-        });
+        if(isConnected(MainActivity.this) == true)
+        {
+            lv = (ListView) findViewById(R.id.listViewTieuDe);
+            arrayTitle = new ArrayList<>();
+            arrayLink = new ArrayList<>();
+            adapter= new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayTitle);
+            lv.setAdapter(adapter);
+            new Rss_NewFeed().execute("https://cafedelites.com/feed/");
+            lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent intent = new Intent(MainActivity.this,detailNewfeed.class);
+                    intent.putExtra("linkTinTuc",arrayLink.get(position));
+                    startActivity(intent);
+                }
+            });
+        }
+        else
+        {
+            Toast.makeText(this, "Bạn vẫn chưa kết nối internet. \nVui lòng kết nối internet để xem RSS", Toast.LENGTH_LONG).show();
+        }
+
+    }
+    private static boolean isConnected(Context context)
+    {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager)  context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
     private class Rss_NewFeed extends AsyncTask<String,Void,String>
     {
